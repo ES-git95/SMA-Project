@@ -12,11 +12,18 @@ Analisi dei tweet attraverso uno o più hashtag specifici per l'identificazione 
 - Caratteristiche cluster: sentiment analysis, word cloud (analisi da fare solo sui cluster perché saranno caratterizzati allo stesso modo, le risposte e menzioni potrebbero avere posizioni differenti al cluster a cui si riferiscono/rispondono) 
 - Esiste un ingerenza esterna ad influenzare l'opinione sui social? Bot detection, distribuzione account per giorni dalla data di creazione rispetto al cluster
 
-To do:
+To do (priorità):
+
+1. Creazione rete dei retweet --> ok
+2. Community detection (Scelta algoritmo, metodo gerarchico con utilizzo di legame singolo?)
+3. Aggiunta di risposte e menzioni alla rete
+4. Analisi della rete (Centrality, Closeness centrality, Betweenness centrality, Delta centrality, Density, Cohesion, Count of cliche & social circles)
+5. Sentiment Analysis
+
+
+To do (facoltativo):
+
 1. Aggiungere colonna delle menzioni (se il tweet è rivolto a qualcuno ma non è una risposta)
-2. Creazione rete dei retweet
-3. Community detection (Scelta algoritmo, metodo gerarchico con utilizzo di legame singolo?)
-4. Aggiunta di risposte e menzioni alla rete
-5. Analisi della nuova rete (Centrality, Closeness centrality, Betweenness centrality, Delta centrality, Density, Cohesion, Count of cliche & social circles)
+2. Bot Detection
 
 
