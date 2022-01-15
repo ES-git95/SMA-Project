@@ -1,29 +1,15 @@
-# SMA-Project
+Nella cartella si troveranno il report (Report_SMA.pdf), la presentazione power point (SMA_project.pptx), i dati e il codice python.
 
-This is the final project of the Social Media Analytics of Univeristà degli Studi di Milano - Bicocca.
+--DATI
 
-The scope of the project is.....
+-Edges_df6.csv : dataframe contenente gli archi del grafo, utilizzato come input Gephi per la realizzazione delle visualizzazioni
+-Nodes_definitivo.csv : dataframe contenente i nodi del grafo, utilizzato come input Gephi per la realizzaizone delle visualizzazioni. Si specifica che questo file è l'output a seguito dell'esecuzione del codice graph.ipynb
+-retweeted_sentiment.csv : dataframe contenente i testi dei tweet che sono stati ritwittati. Il file contiene il risultato a seguito dell'esecuzione del codice Sentiment.ipynb
+-sentix.txt : lexicon utilizzato per la sentiment analysis con Vader
 
-Antivax VS Provax
-Analisi dei tweet attraverso uno o più hashtag specifici per l'identificazione di cluster pro o anti vax. Studio dei cluster e della loro influenza sul dibattito social.
+--CODICE
 
-- Creazione rete e cluster solo con i retweet (NB!! utilizzando come nodi i nomi utente e non i tweet: x ha ritwittato y) 
-- Aggiunta alla rete di risposte e menzioni per analizzare come interagiscono tra loro i cluster (la rete sarà visualizzata con cluster colorati diversamente con risposte e menzioni di colore neutro)
-- Caratteristiche cluster: sentiment analysis, word cloud (analisi da fare solo sui cluster perché saranno caratterizzati allo stesso modo, le risposte e menzioni potrebbero avere posizioni differenti al cluster a cui si riferiscono/rispondono) 
-- Esiste un ingerenza esterna ad influenzare l'opinione sui social? Bot detection, distribuzione account per giorni dalla data di creazione rispetto al cluster
-
-To do (priorità):
-
-1. Creazione rete dei retweet --> ok
-2. Community detection (Scelta algoritmo, metodo gerarchico con utilizzo di legame singolo?)
-3. Aggiunta di risposte e menzioni alla rete
-4. Analisi della rete (Centrality, Closeness centrality, Betweenness centrality, Delta centrality, Density, Cohesion, Count of cliche & social circles)
-5. Sentiment Analysis
-
-
-To do (facoltativo):
-
-1. Aggiungere colonna delle menzioni (se il tweet è rivolto a qualcuno ma non è una risposta)
-2. Bot Detection
-
-
+-Tweets.ipynb : codice per eseguire la raccolta dati tramite Twitter
+-graph.ipybn : codice per performare la community detection e la valutazione delle performance
+-evaluation.ipynb : codice per perfomare le valutazioni sul grafo e le relative misure
+-Sentiment.ipynb : codice per performare la sentiment analysis
