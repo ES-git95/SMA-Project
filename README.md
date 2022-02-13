@@ -1,4 +1,4 @@
-PROGETTO DI SOCIAL MEDIA ALALYTICS
+PROGETTO DI SOCIAL MEDIA ANALYTICS
 Università degli studi di Milano - Bicocca
 
 Nella cartella si troveranno il report (Report_SMA.pdf), la presentazione power point (SMA_project.pptx), i dati e il codice python.
